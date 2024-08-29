@@ -8,7 +8,6 @@ const Hours = () => {
   const today = new Date();
   const dayName = daysOfWeek[today.getDay()];
   const currentHour = today.getHours();
-
   const currentDay = new Date().getDate();
   let openingHours;
 
@@ -20,7 +19,6 @@ const Hours = () => {
     openingHours = 'Closed';
   }
 
-  
   return (
     <div>
       <h2>Hoy es {dayName}</h2>
